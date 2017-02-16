@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:onClick="start"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bind"
+        android:onClick="bind"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:onClick="stop"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unbind"
+        android:onClick="unbind"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="addNotifi"
+        android:onClick="addNotifi"/>
+
+    <qianfeng.com.kaola1613.other.widget.BarrageView
+        android:id="@+id/player3_barrv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#fff000"/>
+
+</LinearLayout>

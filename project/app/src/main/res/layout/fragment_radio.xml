@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.handmark.pulltorefresh.library.PullToRefreshScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pull_refresh_scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    ptr:ptrAnimationStyle="kaola"
+    ptr:ptrMode="pullFromStart"
+    android:background="@color/layout_bg">
+
+    <TextView
+        android:text="电台"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>

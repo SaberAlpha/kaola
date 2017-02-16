@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--标题，更多，一条线-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/recommend_panel_title_tv"
+            style="@style/item_title"
+            android:text="标题" />
+
+        <TextView
+            android:id="@+id/recommend_panel_more_tv"
+            style="@style/item_more"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="10dp"
+            android:drawableRight="@mipmap/ic_auchor_arrow_normal"
+            android:text="@string/public_more" />
+
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/recommend_panel_title_tv"
+            android:layout_marginTop="10dp"
+            android:background="@color/public_gray"
+
+            />-->
+    </RelativeLayout>
+
+    <!--显示RecommendLayout-->
+
+
+</merge>
+

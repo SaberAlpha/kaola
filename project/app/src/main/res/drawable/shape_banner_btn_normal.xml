@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--圆 角-->
+    <corners
+        android:radius="20dp"/>
+    
+    <!--填充色-->
+    <solid
+        android:color="#88d6d6cf"/>
+
+    <!--边线-->
+    <stroke
+        android:color="@android:color/white"
+        android:width="1dp"/>
+
+</shape>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--搜索栏-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/public_red"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_home_search_bg"
+            android:drawableLeft="@mipmap/search_icon"
+            android:drawablePadding="10dp"
+            android:editable="false"
+            android:hint="@string/home_search_hint"
+            android:paddingLeft="20dp"
+            android:textColorHint="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/discover_play_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="15dp"
+            android:background="@mipmap/icon_now_listening_06" />
+
+    </LinearLayout>
+
+    <!--导航Tab-->
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/discover_tl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/public_red"
+        app:tabTextColor="@color/public_gray" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/discover_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

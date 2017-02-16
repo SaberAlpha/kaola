@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/type_content_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/layout_bg">
+
+            <!--自定义控件如果是继承View并且没有重写onMeasure方法，高度是wrap_content, 父布局如果有ScrollView
+            那么不显示高度，如果外面没有ScrollView，那就是match_parent-->
+            <qianfeng.com.kaola1613.other.widget.TypeTopView
+                android:id="@+id/type_ttv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/type_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <qianfeng.com.kaola1613.other.widget.LoadingView
+        android:id="@+id/type_loadingview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
+

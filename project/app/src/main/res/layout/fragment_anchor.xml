@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="10dp"
+        android:divider="@color/layout_bg"
+        android:background="@android:color/white"
+        android:id="@+id/anchor_lv" >
+    </ListView>
+
+    <qianfeng.com.kaola1613.other.widget.LoadingView
+        android:id="@+id/anchor_loadingview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

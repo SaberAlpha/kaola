@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="摇一摇" android:id="@+id/menu_shake"/>
+    <item android:title="照相机" android:id="@+id/menu_camera"/>
+    <item android:title="二维码" android:id="@+id/menu_qrCode"/>
+    <item android:title="百度地图" android:id="@+id/menu_map"/>
+    <item android:title="加密" android:id="@+id/menu_secret"/>
+
+</menu>

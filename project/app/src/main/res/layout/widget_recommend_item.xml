@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/recommend_item_head_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/recommend_item_play_iv"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/recommend_item_head_iv"
+        android:layout_alignRight="@id/recommend_item_head_iv"
+        android:layout_margin="10dp"
+        android:background="@mipmap/btn_recommend_play_normal" />
+
+    <TextView
+        android:id="@+id/recommend_item_albumName_tv"
+        style="@style/item_msg1"
+        android:layout_alignBottom="@id/recommend_item_head_iv"
+        android:layout_alignLeft="@id/recommend_item_head_iv"
+        android:layout_margin="10dp"
+        android:text="仨贱客" />
+
+    <TextView
+        android:id="@+id/recommend_item_reName_tv"
+        style="@style/item_msg2"
+        android:layout_below="@id/recommend_item_head_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:maxLines="2"
+        android:text="想买房?那就先定几个小目标!" />
+
+
+</merge>

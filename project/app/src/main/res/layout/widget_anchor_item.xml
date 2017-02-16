@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/widget_anchor_head_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/widget_anchor_nickname_iv"
+        style="@style/item_msg1"
+        android:layout_below="@id/widget_anchor_head_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="5dp"
+        android:textColor="@android:color/black"
+        android:text="胆小" />
+
+    <TextView
+        android:id="@+id/widget_anchor_recommend_reson_iv"
+        style="@style/item_msg2"
+        android:layout_below="@id/widget_anchor_nickname_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/public_gray"
+        android:singleLine="true"
+        android:text="一个讲段子的帅哥" />
+
+</merge>
+
+

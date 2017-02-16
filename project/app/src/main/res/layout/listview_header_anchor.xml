@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <qianfeng.com.kaola1613.other.widget.AutoScrollViewPager
+        android:id="@+id/anchor_header_asvp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/anchor_head_icon" />
+
+        <!--左边红色的滚动文字-->
+        <qianfeng.com.kaola1613.other.widget.VerticalScrollTextView
+            android:id="@+id/anchor_header_vstv1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:need_stroke="true"
+            app:stroke_color="@color/public_red"
+            app:stroke_radius="10"
+            app:stroke_width="2.0"
+            app:text_color="@color/public_red"
+            app:text_size="16sp" />
+
+        <!--右边黑色的滚动文字-->
+        <qianfeng.com.kaola1613.other.widget.VerticalScrollTextView
+            android:id="@+id/anchor_header_vstv2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:text_size="16sp"
+            app:is_gravity_left="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

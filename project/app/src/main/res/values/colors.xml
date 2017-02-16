@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--公用的颜色-->
+    <color name="public_red">#F84E4E</color>
+    <color name="public_gray">#929292</color>
+    <color name="public_gray_light">#ddd9d9</color>
+    <color name="public_gray_light_pressed">#f5f2f2</color>
+    <color name="layout_bg">#e1e7db</color>
+
+
+</resources>

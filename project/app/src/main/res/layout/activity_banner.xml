@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".other.ui.BannerActivity">
+
+    <!--先写下面的图片-->
+    <ImageView
+        android:id="@+id/banner_bottom_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/bg_default_flash"/>
+
+    <ImageView
+        android:id="@+id/banner_top_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:layout_above="@id/banner_bottom_iv"/>
+
+    <Button
+        android:id="@+id/banner_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/banner_top_iv"
+        android:layout_alignRight="@id/banner_top_iv"
+        android:layout_margin="10dp"
+        android:onClick="toHome"
+        android:background="@drawable/selector_banner_btn"
+        android:text="跳过"/>
+
+</RelativeLayout>
